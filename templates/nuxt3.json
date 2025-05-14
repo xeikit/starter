@@ -1,0 +1,5 @@
+{
+  "name": "nuxt3",
+  "defaultDir": "nuxt3-app",
+  "tar": "https://codeload.github.com/xeikit/starter/tar.gz/refs/heads/nuxt3"
+}

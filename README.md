@@ -1,5 +1,19 @@
-## About this branch
+# 🎉 Starter Templates
 
-This is a placeholder branch to avoid cloning `main` by mistake.
+Quickly get started with a new project using these starter templates!
 
-Please check readme branch in https://github.com/xeikit/starter
+## Usage
+
+You can use these templates to create a new project by running the following command:
+
+```bash
+npx create xeikit-app
+```
+
+This will prompt you to select a template and then create a new project using that template.
+
+## License
+
+[MIT](LICENSE)
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
