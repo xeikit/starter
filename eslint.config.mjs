@@ -1,7 +1,7 @@
 // @ts-check
 import tsEslintParser from '@typescript-eslint/parser';
 import vitest from '@vitest/eslint-plugin';
-import eslintReactiveValueSuffix from 'eslint-plugin-reactive-value-suffix';
+import pluginXeiculy from 'eslint-plugin-xeiculy';
 import globals from 'globals';
 import vueEslintParser from 'vue-eslint-parser';
 import withNuxt from './.nuxt/eslint.config.mjs';
@@ -19,9 +19,7 @@ export default withNuxt([
         ...globals.node,
       },
     },
-    plugins: {
-      'reactive-value-suffix': eslintReactiveValueSuffix,
-    },
+    plugins: { xeiculy: pluginXeiculy },
     rules: {
       'no-console': 'warn',
       'import/order': [
@@ -34,13 +32,8 @@ export default withNuxt([
           'newlines-between': 'never',
         },
       ],
-      'reactive-value-suffix/suffix': [
-        'error',
-        {
-          /** @type {string[]} */
-          functionNamesToIgnoreValueCheck: [],
-        },
-      ],
+      'xeiculy/require-reactive-value-suffix': ['error', { functionNamesToIgnoreValueCheck: [] }],
+      'xeiculy/store-state-suffix': 'error',
     },
   },
   {
