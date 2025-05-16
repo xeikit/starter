@@ -2,6 +2,17 @@
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+## 🚀 Technology stack
+
+- Nuxt3
+- Pinia
+- TypeScript
+- Prettier
+- ESLint
+- Vitest
+- Husky
+- VSCode
+
 ## ✨ Setup
 
 Make sure to install dependencies:
