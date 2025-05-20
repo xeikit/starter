@@ -5,8 +5,7 @@
 dist
 *.tgz
 temp
-/.react-router/
-/build/
+coverage
 
 # Node dependencies
 node_modules
@@ -26,6 +25,10 @@ logs
 .env
 .env.*
 !.env.example
+
+# React Router
+/.react-router/
+/build/
 
 # Biome
 **/*.css

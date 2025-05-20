@@ -1,5 +1,26 @@
+# dev/build outputs
+.output
+.data
+.cache
+dist
+*.tgz
+temp
+coverage
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
 .DS_Store
-/node_modules/
+
+# Local env files
+.env
+.env.*
+!.env.example
 
 # React Router
 /.react-router/
