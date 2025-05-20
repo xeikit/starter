@@ -55,9 +55,5 @@
     "**/*.{md,html,yaml,yml,json,jsonc}": [
       "prettier --write"
     ]
-  },
-  "volta": {
-    "node": "22.15.1",
-    "pnpm": "10.11.0"
   }
 }
