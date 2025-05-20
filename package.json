@@ -26,5 +26,9 @@
     "typescript": "5.8.3",
     "vite": "6.3.5",
     "vite-tsconfig-paths": "5.1.4"
+  },
+  "volta": {
+    "node": "22.15.1",
+    "pnpm": "10.11.0"
   }
 }
