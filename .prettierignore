@@ -1,0 +1,39 @@
+# dev/build outputs
+.output
+.data
+.cache
+dist
+*.tgz
+temp
+/.react-router/
+/build/
+
+# Node dependencies
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Biome
+**/*.css
+**/*.js
+**/*.ts
+**/*.cjs
+**/*.mjs
+**/*.cts
+**/*.mts
+**/*.jsx
+**/*.tsx
