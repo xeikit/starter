@@ -6,7 +6,15 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "biome": "biome check .",
+    "biome:fix": "biome check --write .",
+    "biome:ci": "biome ci .",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "prettier:ci": "prettier --check --log-level warn .",
+    "typecheck": "react-router typegen && tsc",
+    "lint": "pnpm biome && pnpm prettier && pnpm typecheck",
+    "lint:fix": "pnpm biome:fix && pnpm prettier:fix && pnpm typecheck"
   },
   "dependencies": {
     "@react-router/node": "7.6.0",
