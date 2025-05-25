@@ -1,19 +1,27 @@
-# 🎉 Starter Templates
+# 🎉 Xeikit Starter Templates
 
-Quickly get started with a new project using these starter templates!
+> A collection of carefully crafted starter templates for modern web development
 
-## Usage
+[![NPM Version](https://img.shields.io/npm/v/create-xeikit-app)](https://www.npmjs.com/package/create-xeikit-app)
 
-You can use these templates to create a new project by running the following command:
+Quickly bootstrap your next project with production-ready templates featuring modern tooling, best practices, and optimized configurations.
+
+## 🚀 Quick Start
 
 ```bash
-npx create xeikit-app
+npx create-xeikit-app
 ```
 
-This will prompt you to select a template and then create a new project using that template.
+Follow the interactive prompts to select your preferred template and get coding immediately!
 
-## License
+## 📄 License
 
-[MIT](LICENSE)
+This project is licensed under the [MIT License](LICENSE).
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## 🔗 Related
+
+- [create-xeikit-app](https://github.com/xeikit/create-xeikit-app) - The CLI tool
+
+---
+
+Made with ❤️ by the [xeikit](https://github.com/xeikit) team
