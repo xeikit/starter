@@ -1,0 +1,21 @@
+{
+  "name": "starter",
+  "version": "1.1.0",
+  "description": "A registry of starter templates for create-xeikit-app CLI tool.",
+  "scripts": {
+    "release": "changelogen --release --push"
+  },
+  "keywords": [
+    "xeikit"
+  ],
+  "author": "XeicuLy",
+  "license": "MIT",
+  "devDependencies": {
+    "changelogen": "0.6.1"
+  },
+  "packageManager": "pnpm@10.11.0",
+  "volta": {
+    "node": "22.16.0",
+    "pnpm": "10.11.0"
+  }
+}
