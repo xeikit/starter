@@ -21,6 +21,10 @@ env:
   NODE_VERSION: 22.16.0
   PNPM_VERSION: 10.11.0
 
+concurrency:
+  group: release-${{ github.repository }}
+  cancel-in-progress: false
+
 jobs:
   release:
     runs-on: ubuntu-latest
